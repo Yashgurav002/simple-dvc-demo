@@ -72,3 +72,5 @@ python setup.py sdist bdist_wheel
 ```
 
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+               if (exist requirements.txt) {pip install -r requirements.txt}
